@@ -1,96 +1,77 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import statsmodels.api as sm
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import r2_score, mean_squared_error
 import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
 
-# --- Page Config ---
-st.set_page_config(page_title="FairSplit AI", layout="wide")
+# --- Page Settings ---
+st.set_page_config(page_title="FairSplit AI Demo")
 
-# --- App Header ---
-st.markdown("""
-<style>
-    .main-title {
-        font-size: 40px;
-        font-weight: bold;
-        color: #f5b700;
-        text-align: center;
-        margin-bottom: 0px;
-    }
-    .subtitle {
-        text-align: center;
-        font-size: 18px;
-        color: #dddddd;
-        margin-top: 0px;
-    }
-</style>
-""", unsafe_allow_html=True)
-
-st.markdown('<div class="main-title">⚡ FairSplit AI</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">By Students, For Students | Powered by Real Data</div>', unsafe_allow_html=True)
-st.markdown("---")
+# --- Title ---
+st.title("⚡ FairSplit AI Demo")
+st.caption("By Students, For Students | Powered by Real Data")
 
 # --- Load Data ---
-st.header("📂 Data Preview")
 df = pd.read_csv("6-Month_Updated_Room_Energy_Usage_Data.csv")
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
-st.dataframe(df.head())
 
-# --- Summary Statistics ---
-st.header("📊 Summary Statistics")
-total_kwh = df['kwh_used'].sum()
-st.metric("Total Energy Used (kWh)", f"{total_kwh:.2f}")
-st.write(df.describe())
+st.header("📊 How It Works")
+st.markdown("""
+**FairSplit AI** uses real or simulated energy usage (in kWh) to:
 
-# --- Correlation Heatmap ---
-st.header("📈 Correlation Heatmap")
-corr = df[['room_size', 'occupancy_hours', 'device_count', 'avg_temp', 'kwh_used']].corr()
+1. ⚡ **Measure** each room’s energy use  
+2. 💰 **Calculate** their share of the total bill  
+3. 📊 **Compare** to an equal split  
+4. 💡 **Show** who overpays or saves
 
-fig, ax = plt.subplots(figsize=(8, 5))
-sns.heatmap(corr, annot=True, cmap="coolwarm", fmt=".2f", ax=ax)
-st.pyplot(fig)
+👉 Use the slider to simulate different bill totals!
+""")
 
-# --- Regression Model ---
-st.header("🧮 OLS Regression: What Drives Energy Use?")
-with st.expander("Show regression output"):
-    X = df[['room_size', 'occupancy_hours', 'device_count', 'avg_temp']]
-    y = df['kwh_used']
-    X = sm.add_constant(X)
-    model = sm.OLS(y, X).fit()
-    st.text(model.summary())
+# --- Sidebar Slider for Bill Total ---
+bill_total = st.sidebar.slider("Select the total monthly electricity bill (€):", 80, 200, 120)
 
-# --- Forecasting ---
-st.header("🔮 15-Day Forecast for Room A")
+# --- Fair Split Calculation ---
+st.subheader("🏠 FairSplit vs Equal Split")
+df_totals = df.groupby("room_id")["kwh_used"].sum().reset_index()
+total_kwh = df_totals["kwh_used"].sum()
+df_totals["fair_split"] = (df_totals["kwh_used"] / total_kwh) * bill_total
+df_totals["equal_split"] = bill_total / df_totals.shape[0]
+df_totals["difference"] = df_totals["equal_split"] - df_totals["fair_split"]
 
-room_a = df[df['room_id'] == 'Room A'].copy()
-room_a['date'] = pd.to_datetime(room_a['date'], dayfirst=True)
+st.dataframe(df_totals[['room_id', 'kwh_used', 'fair_split', 'equal_split', 'difference']])
 
-X = room_a[['room_size', 'occupancy_hours', 'device_count', 'avg_temp']]
+fig1, ax1 = plt.subplots()
+bar_width = 0.35
+x = np.arange(len(df_totals["room_id"]))
+ax1.bar(x, df_totals["equal_split"], width=bar_width, label="Equal Split")
+ax1.bar(x + bar_width, df_totals["fair_split"], width=bar_width, label="Fair Split")
+ax1.set_xticks(x + bar_width / 2)
+ax1.set_xticklabels(df_totals["room_id"])
+ax1.set_ylabel("Amount (€)")
+ax1.set_title("FairSplit vs Equal Split per Room")
+ax1.legend()
+st.pyplot(fig1)
+
+# --- Forecasting Section ---
+st.subheader("📈 15-Day Energy Forecast for Room A")
+room_a = df[df['room_id'] == 'Room A']
+x = room_a[['room_size', 'occupancy_hours', 'device_count', 'avg_temp']]
 y = room_a['kwh_used']
-X_train, X_test = X.iloc[:-15], X.iloc[-15:]
-y_train, y_test = y.iloc[:-15], y.iloc[-15:]
-
+X_train, X_test = x[:-15], x[-15:]
+y_train, y_test = y[:-15], y[-15:]
 model = LinearRegression()
 model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 
-r2 = r2_score(y_test, predictions)
-mse = mean_squared_error(y_test, predictions)
-
-st.metric("R² Score", f"{r2:.2f}")
-st.metric("Mean Squared Error", f"{mse:.2f}")
-
-fig, ax = plt.subplots(figsize=(10, 5))
-ax.plot(room_a['date'].iloc[-15:], y_test.values, label='Actual', marker='o')
-ax.plot(room_a['date'].iloc[-15:], predictions, label='Forecast', marker='x')
-ax.set_title("Room A: Forecasted vs Actual Energy Usage")
-ax.set_ylabel("kWh Used")
-ax.set_xlabel("Date")
-ax.legend()
-ax.grid(True)
-st.pyplot(fig)
+fig2, ax2 = plt.subplots()
+ax2.plot(room_a['date'].iloc[-15:], y_test.values, label='Actual', marker='o')
+ax2.plot(room_a['date'].iloc[-15:], predictions, label='Forecast', marker='x')
+ax2.set_title("Room A: Forecasted vs Actual Energy Usage")
+ax2.set_ylabel("kWh Used")
+ax2.set_xlabel("Date")
+ax2.legend()
+ax2.grid(True)
+st.pyplot(fig2)
 
 st.caption("⚠️ Forecast is simulated using room-level features and linear regression.")
+
