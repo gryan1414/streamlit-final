@@ -26,15 +26,22 @@ st.title("⚡ FairSplit AI Demo")
 st.caption("By Students, For Students | Powered by Real Data")
 
 st.markdown("""
-### Welcome to FairSplit AI
-This prototype demonstrates how electricity bills can be split more fairly in shared accommodation using real-time or simulated room-level energy usage data.
+<div style='background-color:#f9f2ec;padding:20px;border-radius:10px'>
+<h3 style='color:#e69f00;'>🎓 Welcome to FairSplit AI</h3>
+<p>This prototype demonstrates how electricity bills can be split more fairly in shared accommodation using real-time or simulated room-level energy usage data.</p>
 
-The data used here is **sample data** collected over a 6-month period, showing electricity usage across four rooms in a shared student house. While not real-time, the dataset closely mimics realistic consumption patterns and provides the foundation for testing our approach.
+<p>The data used here is <strong>sample data</strong> collected over a 6-month period, showing electricity usage across four rooms in a shared student house. While not real-time, the dataset closely mimics realistic consumption patterns and provides the foundation for testing our approach.</p>
 
-Through our data analysis, we’ve found that students — often operating on limited budgets — can face disputes and unnecessary costs when bills are split equally, regardless of actual usage. FairSplit AI offers a smarter and fairer way.
+<p style='color:#333;'>From our analysis, we’ve found:</p>
+<ul>
+<li>💸 Students often operate on very limited budgets</li>
+<li>😤 Equal bill splitting can lead to disputes and unnecessary costs</li>
+<li>🔍 FairSplit AI brings transparency, fairness, and savings to shared living</li>
+</ul>
 
-Use the interactive elements below to explore how FairSplit AI makes billing transparent, personalized, and fair.
-""")
+<p>Use the interactive elements below to explore how FairSplit AI makes billing transparent, personalized, and fair.</p>
+</div>
+""", unsafe_allow_html=True)
 
 # --- Load Data ---
 df = pd.read_csv("6-Month_Updated_Room_Energy_Usage_Data.csv")
