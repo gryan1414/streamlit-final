@@ -1,92 +1,96 @@
 import streamlit as st
 import pandas as pd
-
-st.title("FairSplit AI Demo")
-st.caption("📊 This app shows how to fairly split energy bills.")
-
-# Load the data
-df = pd.read_csv("6-Month_Updated_Room_Energy_Usage_Data.csv")
-st.write("Preview of data:")
-st.dataframe(df.head())
-# --- Summary Stats ---
-st.subheader("📊 Summary Statistics")
-total_kwh = df['kwh_used'].sum()
-st.write(f"**Total Energy Used (kWh):** {total_kwh:.2f}")
-st.write(df.describe())
-
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-st.subheader("📈 Correlation Heatmap")
-corr = df[['room_size', 'occupancy_hours', 'device_count', 'avg_temp', 'kwh_used']].corr()
-
-fig, ax = plt.subplots()
-sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
-st.pyplot(fig)
-
 import statsmodels.api as sm
-
-st.subheader("📉 OLS Regression Model")
-
-# Define features (X) and target (y)
-X = df[['room_size', 'occupancy_hours', 'device_count', 'avg_temp']]
-y = df['kwh_used']
-
-# Add constant to X
-X = sm.add_constant(X)
-
-# Fit model
-model = sm.OLS(y, X).fit()
-
-# Display summary
-st.text(model.summary())
-
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_squared_error
 import numpy as np
 
-st.subheader("📈 15-Day Energy Forecast for Room A")
+# --- Page Config ---
+st.set_page_config(page_title="FairSplit AI", layout="wide")
 
-# Filter Room A only
+# --- App Header ---
+st.markdown("""
+<style>
+    .main-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: #f5b700;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .subtitle {
+        text-align: center;
+        font-size: 18px;
+        color: #dddddd;
+        margin-top: 0px;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="main-title">⚡ FairSplit AI</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">By Students, For Students | Powered by Real Data</div>', unsafe_allow_html=True)
+st.markdown("---")
+
+# --- Load Data ---
+st.header("📂 Data Preview")
+df = pd.read_csv("6-Month_Updated_Room_Energy_Usage_Data.csv")
+df['date'] = pd.to_datetime(df['date'], dayfirst=True)
+st.dataframe(df.head())
+
+# --- Summary Statistics ---
+st.header("📊 Summary Statistics")
+total_kwh = df['kwh_used'].sum()
+st.metric("Total Energy Used (kWh)", f"{total_kwh:.2f}")
+st.write(df.describe())
+
+# --- Correlation Heatmap ---
+st.header("📈 Correlation Heatmap")
+corr = df[['room_size', 'occupancy_hours', 'device_count', 'avg_temp', 'kwh_used']].corr()
+
+fig, ax = plt.subplots(figsize=(8, 5))
+sns.heatmap(corr, annot=True, cmap="coolwarm", fmt=".2f", ax=ax)
+st.pyplot(fig)
+
+# --- Regression Model ---
+st.header("🧮 OLS Regression: What Drives Energy Use?")
+with st.expander("Show regression output"):
+    X = df[['room_size', 'occupancy_hours', 'device_count', 'avg_temp']]
+    y = df['kwh_used']
+    X = sm.add_constant(X)
+    model = sm.OLS(y, X).fit()
+    st.text(model.summary())
+
+# --- Forecasting ---
+st.header("🔮 15-Day Forecast for Room A")
+
 room_a = df[df['room_id'] == 'Room A'].copy()
-
-# Convert date
 room_a['date'] = pd.to_datetime(room_a['date'], dayfirst=True)
 
-# Prepare features and target
 X = room_a[['room_size', 'occupancy_hours', 'device_count', 'avg_temp']]
 y = room_a['kwh_used']
-
-# Train/test split (last 15 days as test set)
 X_train, X_test = X.iloc[:-15], X.iloc[-15:]
 y_train, y_test = y.iloc[:-15], y.iloc[-15:]
 
-# Train model
 model = LinearRegression()
 model.fit(X_train, y_train)
-
-# Make predictions
 predictions = model.predict(X_test)
 
-# Metrics
 r2 = r2_score(y_test, predictions)
 mse = mean_squared_error(y_test, predictions)
 
-st.write(f"**R² Score:** {r2:.2f}")
-st.write(f"**MSE:** {mse:.2f}")
+st.metric("R² Score", f"{r2:.2f}")
+st.metric("Mean Squared Error", f"{mse:.2f}")
 
-# Plot predictions vs actual
-import matplotlib.pyplot as plt
-
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(10, 5))
 ax.plot(room_a['date'].iloc[-15:], y_test.values, label='Actual', marker='o')
-ax.plot(room_a['date'].iloc[-15:], predictions, label='Predicted', marker='x')
-ax.set_title("15-Day Forecast vs Actual (Room A)")
-ax.set_ylabel("Energy (kWh)")
+ax.plot(room_a['date'].iloc[-15:], predictions, label='Forecast', marker='x')
+ax.set_title("Room A: Forecasted vs Actual Energy Usage")
+ax.set_ylabel("kWh Used")
 ax.set_xlabel("Date")
 ax.legend()
 ax.grid(True)
-
 st.pyplot(fig)
 
-st.caption("⚠️ Forecast is simulated based on room features and past data.")
+st.caption("⚠️ Forecast is simulated using room-level features and linear regression.")
