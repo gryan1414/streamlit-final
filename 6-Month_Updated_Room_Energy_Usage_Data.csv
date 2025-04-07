@@ -1,0 +1,721 @@
+date,room_id,room_size,occupancy_hours,device_count,avg_temp,day_of_week,kwh_used,personality_type
+30/09/2024,Room A,14,19.4,6,6.4,Monday,4.83,Tech-Heavy & High Heating Preference
+01/10/2024,Room A,14,22.8,7,10.4,Tuesday,4.22,Tech-Heavy & High Heating Preference
+02/10/2024,Room A,14,21.2,9,13.6,Wednesday,3.72,Tech-Heavy & High Heating Preference
+03/10/2024,Room A,14,16.6,6,5.7,Thursday,4.7,Tech-Heavy & High Heating Preference
+04/10/2024,Room A,14,19.2,8,-0.6,Friday,8.05,Tech-Heavy & High Heating Preference
+05/10/2024,Room A,14,22.3,6,8.2,Saturday,3.7,Tech-Heavy & High Heating Preference
+06/10/2024,Room A,14,19.4,9,7.4,Sunday,6.07,Tech-Heavy & High Heating Preference
+07/10/2024,Room A,14,23.5,8,7.2,Monday,6.01,Tech-Heavy & High Heating Preference
+08/10/2024,Room A,14,20.6,9,6.9,Tuesday,5.21,Tech-Heavy & High Heating Preference
+09/10/2024,Room A,14,21.9,7,2.0,Wednesday,5.82,Tech-Heavy & High Heating Preference
+10/10/2024,Room A,14,18.4,7,7.0,Thursday,4.78,Tech-Heavy & High Heating Preference
+11/10/2024,Room A,14,16.3,6,4.0,Friday,4.95,Tech-Heavy & High Heating Preference
+12/10/2024,Room A,14,17.0,8,6.3,Saturday,4.68,Tech-Heavy & High Heating Preference
+13/10/2024,Room A,14,23.0,7,6.5,Sunday,5.04,Tech-Heavy & High Heating Preference
+14/10/2024,Room A,14,23.9,8,9.5,Monday,4.95,Tech-Heavy & High Heating Preference
+15/10/2024,Room A,14,20.9,6,7.5,Tuesday,4.98,Tech-Heavy & High Heating Preference
+16/10/2024,Room A,14,23.7,9,5.8,Wednesday,6.09,Tech-Heavy & High Heating Preference
+17/10/2024,Room A,14,23.8,6,5.5,Thursday,5.54,Tech-Heavy & High Heating Preference
+18/10/2024,Room A,14,20.2,8,14.5,Friday,3.2,Tech-Heavy & High Heating Preference
+19/10/2024,Room A,14,21.6,9,11.3,Saturday,3.99,Tech-Heavy & High Heating Preference
+20/10/2024,Room A,14,21.0,6,6.7,Sunday,5.45,Tech-Heavy & High Heating Preference
+21/10/2024,Room A,14,20.6,7,14.1,Monday,3.41,Tech-Heavy & High Heating Preference
+22/10/2024,Room A,14,18.2,6,0.3,Tuesday,6.2,Tech-Heavy & High Heating Preference
+23/10/2024,Room A,14,21.2,6,7.9,Wednesday,4.83,Tech-Heavy & High Heating Preference
+24/10/2024,Room A,14,18.0,7,4.3,Thursday,6.1,Tech-Heavy & High Heating Preference
+25/10/2024,Room A,14,20.0,7,9.7,Friday,3.73,Tech-Heavy & High Heating Preference
+26/10/2024,Room A,14,20.6,9,9.7,Saturday,4.66,Tech-Heavy & High Heating Preference
+27/10/2024,Room A,14,18.1,7,9.0,Sunday,5.12,Tech-Heavy & High Heating Preference
+28/10/2024,Room A,14,18.0,8,10.3,Monday,4.04,Tech-Heavy & High Heating Preference
+29/10/2024,Room A,14,22.7,6,8.2,Tuesday,5.06,Tech-Heavy & High Heating Preference
+30/10/2024,Room A,14,23.1,6,4.2,Wednesday,6.24,Tech-Heavy & High Heating Preference
+31/10/2024,Room A,14,18.7,7,6.5,Thursday,5.09,Tech-Heavy & High Heating Preference
+01/11/2024,Room A,14,18.1,7,11.7,Friday,3.57,Tech-Heavy & High Heating Preference
+02/11/2024,Room A,14,23.8,6,9.5,Saturday,3.7,Tech-Heavy & High Heating Preference
+03/11/2024,Room A,14,16.1,6,6.2,Sunday,4.22,Tech-Heavy & High Heating Preference
+04/11/2024,Room A,14,22.1,7,6.1,Monday,5.6,Tech-Heavy & High Heating Preference
+05/11/2024,Room A,14,19.1,8,10.6,Tuesday,3.93,Tech-Heavy & High Heating Preference
+06/11/2024,Room A,14,16.5,8,7.5,Wednesday,4.9,Tech-Heavy & High Heating Preference
+07/11/2024,Room A,14,21.7,7,8.5,Thursday,4.42,Tech-Heavy & High Heating Preference
+08/11/2024,Room A,14,16.4,7,10.6,Friday,2.8,Tech-Heavy & High Heating Preference
+09/11/2024,Room A,14,20.8,9,13.1,Saturday,3.29,Tech-Heavy & High Heating Preference
+10/11/2024,Room A,14,22.2,7,6.6,Sunday,4.32,Tech-Heavy & High Heating Preference
+11/11/2024,Room A,14,16.8,6,9.0,Monday,3.85,Tech-Heavy & High Heating Preference
+12/11/2024,Room A,14,21.5,9,8.3,Tuesday,4.91,Tech-Heavy & High Heating Preference
+13/11/2024,Room A,14,17.8,8,8.4,Wednesday,4.86,Tech-Heavy & High Heating Preference
+14/11/2024,Room A,14,23.5,9,6.3,Thursday,5.38,Tech-Heavy & High Heating Preference
+15/11/2024,Room A,14,18.5,7,6.0,Friday,5.93,Tech-Heavy & High Heating Preference
+16/11/2024,Room A,14,17.7,9,6.3,Saturday,5.56,Tech-Heavy & High Heating Preference
+17/11/2024,Room A,14,20.5,9,8.2,Sunday,5.43,Tech-Heavy & High Heating Preference
+18/11/2024,Room A,14,17.5,6,8.5,Monday,4.08,Tech-Heavy & High Heating Preference
+19/11/2024,Room A,14,16.1,6,11.9,Tuesday,1.71,Tech-Heavy & High Heating Preference
+20/11/2024,Room A,14,22.4,6,7.6,Wednesday,5.21,Tech-Heavy & High Heating Preference
+21/11/2024,Room A,14,20.5,9,2.7,Thursday,7.03,Tech-Heavy & High Heating Preference
+22/11/2024,Room A,14,20.7,6,4.8,Friday,5.53,Tech-Heavy & High Heating Preference
+23/11/2024,Room A,14,23.9,6,2.6,Saturday,7.48,Tech-Heavy & High Heating Preference
+24/11/2024,Room A,14,20.8,9,5.6,Sunday,4.68,Tech-Heavy & High Heating Preference
+25/11/2024,Room A,14,23.6,6,10.6,Monday,4.44,Tech-Heavy & High Heating Preference
+26/11/2024,Room A,14,16.8,6,6.9,Tuesday,4.22,Tech-Heavy & High Heating Preference
+27/11/2024,Room A,14,16.1,7,7.5,Wednesday,4.01,Tech-Heavy & High Heating Preference
+28/11/2024,Room A,14,20.5,9,11.5,Thursday,4.53,Tech-Heavy & High Heating Preference
+29/11/2024,Room A,14,16.7,6,10.1,Friday,3.59,Tech-Heavy & High Heating Preference
+30/11/2024,Room A,14,17.1,8,6.5,Saturday,4.7,Tech-Heavy & High Heating Preference
+01/12/2024,Room A,14,22.6,7,8.9,Sunday,4.2,Tech-Heavy & High Heating Preference
+02/12/2024,Room A,14,16.3,7,11.2,Monday,3.83,Tech-Heavy & High Heating Preference
+03/12/2024,Room A,14,18.4,9,11.4,Tuesday,4.67,Tech-Heavy & High Heating Preference
+04/12/2024,Room A,14,22.4,7,8.2,Wednesday,5.23,Tech-Heavy & High Heating Preference
+05/12/2024,Room A,14,21.3,9,6.0,Thursday,7.04,Tech-Heavy & High Heating Preference
+06/12/2024,Room A,14,19.6,8,11.0,Friday,4.07,Tech-Heavy & High Heating Preference
+07/12/2024,Room A,14,20.7,9,12.1,Saturday,3.73,Tech-Heavy & High Heating Preference
+08/12/2024,Room A,14,22.3,8,3.9,Sunday,6.1,Tech-Heavy & High Heating Preference
+09/12/2024,Room A,14,19.9,9,8.5,Monday,3.94,Tech-Heavy & High Heating Preference
+10/12/2024,Room A,14,16.6,8,8.8,Tuesday,3.79,Tech-Heavy & High Heating Preference
+11/12/2024,Room A,14,17.4,6,8.4,Wednesday,3.9,Tech-Heavy & High Heating Preference
+12/12/2024,Room A,14,19.4,9,9.8,Thursday,4.94,Tech-Heavy & High Heating Preference
+13/12/2024,Room A,14,20.0,7,9.6,Friday,4.6,Tech-Heavy & High Heating Preference
+14/12/2024,Room A,14,19.5,6,7.7,Saturday,5.07,Tech-Heavy & High Heating Preference
+15/12/2024,Room A,14,20.8,9,11.7,Sunday,3.29,Tech-Heavy & High Heating Preference
+16/12/2024,Room A,14,20.7,7,2.1,Monday,6.26,Tech-Heavy & High Heating Preference
+17/12/2024,Room A,14,19.7,6,3.2,Tuesday,5.15,Tech-Heavy & High Heating Preference
+18/12/2024,Room A,14,21.7,9,5.1,Wednesday,6.33,Tech-Heavy & High Heating Preference
+19/12/2024,Room A,14,19.0,7,12.0,Thursday,4.04,Tech-Heavy & High Heating Preference
+20/12/2024,Room A,14,19.9,7,8.0,Friday,4.56,Tech-Heavy & High Heating Preference
+21/12/2024,Room A,14,20.7,8,6.4,Saturday,5.03,Tech-Heavy & High Heating Preference
+22/12/2024,Room A,14,17.3,8,10.4,Sunday,3.03,Tech-Heavy & High Heating Preference
+23/12/2024,Room A,14,22.9,6,4.4,Monday,5.06,Tech-Heavy & High Heating Preference
+24/12/2024,Room A,14,17.0,6,10.3,Tuesday,3.15,Tech-Heavy & High Heating Preference
+25/12/2024,Room A,14,23.1,7,4.7,Wednesday,5.62,Tech-Heavy & High Heating Preference
+26/12/2024,Room A,14,18.7,7,7.2,Thursday,4.16,Tech-Heavy & High Heating Preference
+27/12/2024,Room A,14,20.7,9,6.5,Friday,5.04,Tech-Heavy & High Heating Preference
+28/12/2024,Room A,14,17.3,6,4.5,Saturday,5.55,Tech-Heavy & High Heating Preference
+29/12/2024,Room A,14,20.3,6,2.1,Sunday,6.9,Tech-Heavy & High Heating Preference
+30/12/2024,Room A,14,20.7,8,8.1,Monday,5.14,Tech-Heavy & High Heating Preference
+31/12/2024,Room A,14,16.3,7,11.8,Tuesday,4.36,Tech-Heavy & High Heating Preference
+01/01/2025,Room A,14,23.5,6,7.1,Wednesday,4.76,Tech-Heavy & High Heating Preference
+02/01/2025,Room A,14,17.4,8,3.3,Thursday,6.37,Tech-Heavy & High Heating Preference
+03/01/2025,Room A,14,16.3,7,7.2,Friday,3.56,Tech-Heavy & High Heating Preference
+04/01/2025,Room A,14,21.5,7,5.6,Saturday,4.35,Tech-Heavy & High Heating Preference
+05/01/2025,Room A,14,22.9,8,7.4,Sunday,5.6,Tech-Heavy & High Heating Preference
+06/01/2025,Room A,14,18.7,7,7.4,Monday,3.9,Tech-Heavy & High Heating Preference
+07/01/2025,Room A,14,17.6,8,10.3,Tuesday,3.44,Tech-Heavy & High Heating Preference
+08/01/2025,Room A,14,21.8,6,5.8,Wednesday,5.13,Tech-Heavy & High Heating Preference
+09/01/2025,Room A,14,17.4,7,10.2,Thursday,3.69,Tech-Heavy & High Heating Preference
+10/01/2025,Room A,14,18.0,7,6.7,Friday,4.87,Tech-Heavy & High Heating Preference
+11/01/2025,Room A,14,16.2,9,7.6,Saturday,5.37,Tech-Heavy & High Heating Preference
+12/01/2025,Room A,14,22.6,9,8.9,Sunday,5.18,Tech-Heavy & High Heating Preference
+13/01/2025,Room A,14,21.3,7,4.7,Monday,5.97,Tech-Heavy & High Heating Preference
+14/01/2025,Room A,14,22.9,6,2.2,Tuesday,7.01,Tech-Heavy & High Heating Preference
+15/01/2025,Room A,14,20.5,6,8.0,Wednesday,4.78,Tech-Heavy & High Heating Preference
+16/01/2025,Room A,14,22.1,9,7.9,Thursday,4.95,Tech-Heavy & High Heating Preference
+17/01/2025,Room A,14,22.1,6,10.1,Friday,4.35,Tech-Heavy & High Heating Preference
+18/01/2025,Room A,14,19.0,7,9.4,Saturday,3.99,Tech-Heavy & High Heating Preference
+19/01/2025,Room A,14,18.6,9,6.5,Sunday,5.42,Tech-Heavy & High Heating Preference
+20/01/2025,Room A,14,19.0,6,10.5,Monday,4.66,Tech-Heavy & High Heating Preference
+21/01/2025,Room A,14,19.0,9,2.3,Tuesday,6.54,Tech-Heavy & High Heating Preference
+22/01/2025,Room A,14,17.3,7,7.1,Wednesday,4.58,Tech-Heavy & High Heating Preference
+23/01/2025,Room A,14,19.0,7,4.9,Thursday,6.65,Tech-Heavy & High Heating Preference
+24/01/2025,Room A,14,19.8,8,2.1,Friday,6.73,Tech-Heavy & High Heating Preference
+25/01/2025,Room A,14,21.7,8,9.0,Saturday,5.05,Tech-Heavy & High Heating Preference
+26/01/2025,Room A,14,19.4,9,11.0,Sunday,4.2,Tech-Heavy & High Heating Preference
+27/01/2025,Room A,14,17.9,8,9.3,Monday,4.45,Tech-Heavy & High Heating Preference
+28/01/2025,Room A,14,19.8,8,3.3,Tuesday,6.04,Tech-Heavy & High Heating Preference
+29/01/2025,Room A,14,18.1,9,6.9,Wednesday,4.76,Tech-Heavy & High Heating Preference
+30/01/2025,Room A,14,20.3,9,8.6,Thursday,5.06,Tech-Heavy & High Heating Preference
+31/01/2025,Room A,14,21.7,6,9.8,Friday,3.36,Tech-Heavy & High Heating Preference
+01/02/2025,Room A,14,22.9,8,3.8,Saturday,6.47,Tech-Heavy & High Heating Preference
+02/02/2025,Room A,14,16.9,7,12.5,Sunday,3.13,Tech-Heavy & High Heating Preference
+03/02/2025,Room A,14,22.5,9,4.5,Monday,6.32,Tech-Heavy & High Heating Preference
+04/02/2025,Room A,14,23.6,8,7.4,Tuesday,5.23,Tech-Heavy & High Heating Preference
+05/02/2025,Room A,14,20.7,7,7.7,Wednesday,5.98,Tech-Heavy & High Heating Preference
+06/02/2025,Room A,14,19.3,6,8.5,Thursday,3.63,Tech-Heavy & High Heating Preference
+07/02/2025,Room A,14,20.5,8,7.5,Friday,5.22,Tech-Heavy & High Heating Preference
+08/02/2025,Room A,14,22.6,9,4.8,Saturday,6.75,Tech-Heavy & High Heating Preference
+09/02/2025,Room A,14,22.1,7,10.1,Sunday,4.57,Tech-Heavy & High Heating Preference
+10/02/2025,Room A,14,17.3,8,13.7,Monday,2.32,Tech-Heavy & High Heating Preference
+11/02/2025,Room A,14,20.3,7,6.8,Tuesday,5.65,Tech-Heavy & High Heating Preference
+12/02/2025,Room A,14,20.9,9,7.1,Wednesday,5.37,Tech-Heavy & High Heating Preference
+13/02/2025,Room A,14,21.1,6,3.0,Thursday,6.48,Tech-Heavy & High Heating Preference
+14/02/2025,Room A,14,17.1,6,7.9,Friday,4.23,Tech-Heavy & High Heating Preference
+15/02/2025,Room A,14,19.6,6,5.1,Saturday,6.26,Tech-Heavy & High Heating Preference
+16/02/2025,Room A,14,18.2,7,8.7,Sunday,5.12,Tech-Heavy & High Heating Preference
+17/02/2025,Room A,14,20.8,6,9.4,Monday,3.49,Tech-Heavy & High Heating Preference
+18/02/2025,Room A,14,18.8,9,3.7,Tuesday,5.92,Tech-Heavy & High Heating Preference
+19/02/2025,Room A,14,21.4,9,10.7,Wednesday,4.31,Tech-Heavy & High Heating Preference
+20/02/2025,Room A,14,23.0,7,7.7,Thursday,4.32,Tech-Heavy & High Heating Preference
+21/02/2025,Room A,14,19.7,7,3.7,Friday,6.32,Tech-Heavy & High Heating Preference
+22/02/2025,Room A,14,21.8,7,9.1,Saturday,5.53,Tech-Heavy & High Heating Preference
+23/02/2025,Room A,14,16.7,6,9.6,Sunday,2.79,Tech-Heavy & High Heating Preference
+24/02/2025,Room A,14,17.6,9,8.6,Monday,4.22,Tech-Heavy & High Heating Preference
+25/02/2025,Room A,14,22.6,9,2.3,Tuesday,6.15,Tech-Heavy & High Heating Preference
+26/02/2025,Room A,14,22.4,9,10.9,Wednesday,3.85,Tech-Heavy & High Heating Preference
+27/02/2025,Room A,14,23.8,7,4.3,Thursday,6.06,Tech-Heavy & High Heating Preference
+28/02/2025,Room A,14,20.2,7,10.6,Friday,4.0,Tech-Heavy & High Heating Preference
+01/03/2025,Room A,14,22.9,6,9.4,Saturday,4.02,Tech-Heavy & High Heating Preference
+02/03/2025,Room A,14,21.7,7,8.5,Sunday,5.0,Tech-Heavy & High Heating Preference
+03/03/2025,Room A,14,18.7,6,6.1,Monday,4.73,Tech-Heavy & High Heating Preference
+04/03/2025,Room A,14,19.2,8,1.5,Tuesday,7.02,Tech-Heavy & High Heating Preference
+05/03/2025,Room A,14,20.6,9,8.3,Wednesday,4.79,Tech-Heavy & High Heating Preference
+06/03/2025,Room A,14,23.4,7,5.8,Thursday,5.92,Tech-Heavy & High Heating Preference
+07/03/2025,Room A,14,21.4,7,13.6,Friday,3.51,Tech-Heavy & High Heating Preference
+08/03/2025,Room A,14,22.3,9,7.8,Saturday,5.55,Tech-Heavy & High Heating Preference
+09/03/2025,Room A,14,16.2,8,5.4,Sunday,5.8,Tech-Heavy & High Heating Preference
+10/03/2025,Room A,14,23.8,9,3.9,Monday,7.37,Tech-Heavy & High Heating Preference
+11/03/2025,Room A,14,19.8,6,7.4,Tuesday,5.03,Tech-Heavy & High Heating Preference
+12/03/2025,Room A,14,20.9,7,6.9,Wednesday,5.52,Tech-Heavy & High Heating Preference
+13/03/2025,Room A,14,23.6,7,5.5,Thursday,6.29,Tech-Heavy & High Heating Preference
+14/03/2025,Room A,14,16.5,7,5.9,Friday,4.49,Tech-Heavy & High Heating Preference
+15/03/2025,Room A,14,16.6,9,2.3,Saturday,6.51,Tech-Heavy & High Heating Preference
+16/03/2025,Room A,14,18.5,7,6.8,Sunday,5.16,Tech-Heavy & High Heating Preference
+17/03/2025,Room A,14,22.8,9,5.9,Monday,6.33,Tech-Heavy & High Heating Preference
+18/03/2025,Room A,14,21.2,8,8.6,Tuesday,4.19,Tech-Heavy & High Heating Preference
+19/03/2025,Room A,14,17.5,6,10.4,Wednesday,2.52,Tech-Heavy & High Heating Preference
+20/03/2025,Room A,14,23.9,8,7.4,Thursday,5.28,Tech-Heavy & High Heating Preference
+21/03/2025,Room A,14,17.4,9,4.9,Friday,6.21,Tech-Heavy & High Heating Preference
+22/03/2025,Room A,14,24.0,6,7.0,Saturday,4.82,Tech-Heavy & High Heating Preference
+23/03/2025,Room A,14,17.4,9,4.8,Sunday,5.45,Tech-Heavy & High Heating Preference
+24/03/2025,Room A,14,17.0,9,-0.7,Monday,7.87,Tech-Heavy & High Heating Preference
+25/03/2025,Room A,14,18.8,8,12.1,Tuesday,3.01,Tech-Heavy & High Heating Preference
+26/03/2025,Room A,14,21.9,7,10.6,Wednesday,3.94,Tech-Heavy & High Heating Preference
+27/03/2025,Room A,14,22.3,6,6.3,Thursday,4.72,Tech-Heavy & High Heating Preference
+28/03/2025,Room A,14,20.3,6,5.4,Friday,5.52,Tech-Heavy & High Heating Preference
+30/09/2024,Room B,10,9.8,2,9.8,Monday,1.69,Minimalist
+01/10/2024,Room B,10,9.3,2,4.0,Tuesday,3.61,Minimalist
+02/10/2024,Room B,10,6.9,3,1.8,Wednesday,4.26,Minimalist
+03/10/2024,Room B,10,10.4,3,5.7,Thursday,3.0,Minimalist
+04/10/2024,Room B,10,11.2,3,8.3,Friday,3.32,Minimalist
+05/10/2024,Room B,10,11.7,2,7.9,Saturday,2.82,Minimalist
+06/10/2024,Room B,10,10.9,3,8.4,Sunday,2.75,Minimalist
+07/10/2024,Room B,10,6.2,3,9.0,Monday,1.77,Minimalist
+08/10/2024,Room B,10,9.0,3,8.8,Tuesday,2.62,Minimalist
+09/10/2024,Room B,10,9.7,3,7.8,Wednesday,3.12,Minimalist
+10/10/2024,Room B,10,6.6,3,10.0,Thursday,1.69,Minimalist
+11/10/2024,Room B,10,6.3,2,13.0,Friday,0.68,Minimalist
+12/10/2024,Room B,10,10.8,2,9.4,Saturday,2.78,Minimalist
+13/10/2024,Room B,10,7.8,2,4.6,Sunday,3.95,Minimalist
+14/10/2024,Room B,10,8.5,2,5.2,Monday,3.79,Minimalist
+15/10/2024,Room B,10,7.6,3,10.6,Tuesday,2.05,Minimalist
+16/10/2024,Room B,10,11.4,3,7.1,Wednesday,2.69,Minimalist
+17/10/2024,Room B,10,8.3,3,8.8,Thursday,2.94,Minimalist
+18/10/2024,Room B,10,11.8,2,6.4,Friday,3.11,Minimalist
+19/10/2024,Room B,10,11.9,3,5.1,Saturday,4.23,Minimalist
+20/10/2024,Room B,10,9.1,3,9.5,Sunday,2.15,Minimalist
+21/10/2024,Room B,10,8.0,3,4.4,Monday,3.75,Minimalist
+22/10/2024,Room B,10,8.3,3,4.5,Tuesday,3.67,Minimalist
+23/10/2024,Room B,10,11.7,3,13.2,Wednesday,0.76,Minimalist
+24/10/2024,Room B,10,9.0,2,7.6,Thursday,2.76,Minimalist
+25/10/2024,Room B,10,10.9,2,3.0,Friday,4.55,Minimalist
+26/10/2024,Room B,10,9.3,2,6.0,Saturday,3.32,Minimalist
+27/10/2024,Room B,10,11.1,3,6.3,Sunday,4.13,Minimalist
+28/10/2024,Room B,10,6.3,3,3.1,Monday,3.91,Minimalist
+29/10/2024,Room B,10,11.6,2,8.0,Tuesday,2.68,Minimalist
+30/10/2024,Room B,10,10.1,3,5.4,Wednesday,3.65,Minimalist
+31/10/2024,Room B,10,9.0,3,5.4,Thursday,3.67,Minimalist
+01/11/2024,Room B,10,10.5,2,4.1,Friday,2.84,Minimalist
+02/11/2024,Room B,10,9.4,2,1.3,Saturday,4.49,Minimalist
+03/11/2024,Room B,10,11.3,2,7.5,Sunday,2.35,Minimalist
+04/11/2024,Room B,10,6.1,2,6.6,Monday,1.92,Minimalist
+05/11/2024,Room B,10,7.7,2,8.6,Tuesday,2.25,Minimalist
+06/11/2024,Room B,10,7.2,3,10.9,Wednesday,1.35,Minimalist
+07/11/2024,Room B,10,9.7,3,9.3,Thursday,2.58,Minimalist
+08/11/2024,Room B,10,9.3,3,10.6,Friday,1.55,Minimalist
+09/11/2024,Room B,10,11.0,3,7.7,Saturday,3.01,Minimalist
+10/11/2024,Room B,10,6.9,2,2.7,Sunday,3.24,Minimalist
+11/11/2024,Room B,10,6.7,2,7.7,Monday,0.59,Minimalist
+12/11/2024,Room B,10,11.3,2,12.2,Tuesday,1.18,Minimalist
+13/11/2024,Room B,10,6.0,2,8.2,Wednesday,1.61,Minimalist
+14/11/2024,Room B,10,6.6,2,10.5,Thursday,1.12,Minimalist
+15/11/2024,Room B,10,10.3,2,7.1,Friday,3.35,Minimalist
+16/11/2024,Room B,10,9.4,3,11.6,Saturday,2.55,Minimalist
+17/11/2024,Room B,10,9.6,3,14.5,Sunday,0.53,Minimalist
+18/11/2024,Room B,10,6.5,3,7.0,Monday,3.31,Minimalist
+19/11/2024,Room B,10,11.9,2,10.2,Tuesday,2.45,Minimalist
+20/11/2024,Room B,10,8.6,3,7.3,Wednesday,3.52,Minimalist
+21/11/2024,Room B,10,7.4,2,8.1,Thursday,1.93,Minimalist
+22/11/2024,Room B,10,10.4,2,8.4,Friday,1.73,Minimalist
+23/11/2024,Room B,10,7.0,3,4.3,Saturday,4.05,Minimalist
+24/11/2024,Room B,10,6.7,3,10.7,Sunday,1.86,Minimalist
+25/11/2024,Room B,10,11.9,2,7.9,Monday,2.03,Minimalist
+26/11/2024,Room B,10,9.1,2,5.4,Tuesday,3.57,Minimalist
+27/11/2024,Room B,10,8.3,3,5.8,Wednesday,3.46,Minimalist
+28/11/2024,Room B,10,8.7,2,8.5,Thursday,1.95,Minimalist
+29/11/2024,Room B,10,6.3,2,9.7,Friday,2.33,Minimalist
+30/11/2024,Room B,10,10.4,3,-1.6,Saturday,5.54,Minimalist
+01/12/2024,Room B,10,11.5,2,6.2,Sunday,2.7,Minimalist
+02/12/2024,Room B,10,7.6,2,6.7,Monday,2.55,Minimalist
+03/12/2024,Room B,10,11.8,3,9.7,Tuesday,2.04,Minimalist
+04/12/2024,Room B,10,10.7,3,6.1,Wednesday,4.12,Minimalist
+05/12/2024,Room B,10,6.3,3,7.5,Thursday,2.39,Minimalist
+06/12/2024,Room B,10,8.1,2,-0.3,Friday,5.23,Minimalist
+07/12/2024,Room B,10,9.3,3,9.4,Saturday,1.78,Minimalist
+08/12/2024,Room B,10,6.3,3,9.1,Sunday,2.05,Minimalist
+09/12/2024,Room B,10,9.0,2,8.6,Monday,2.84,Minimalist
+10/12/2024,Room B,10,7.2,3,9.4,Tuesday,1.38,Minimalist
+11/12/2024,Room B,10,11.7,3,3.2,Wednesday,3.77,Minimalist
+12/12/2024,Room B,10,6.9,3,4.6,Thursday,3.26,Minimalist
+13/12/2024,Room B,10,10.1,2,4.5,Friday,3.47,Minimalist
+14/12/2024,Room B,10,11.2,3,4.0,Saturday,4.06,Minimalist
+15/12/2024,Room B,10,9.3,3,11.3,Sunday,1.74,Minimalist
+16/12/2024,Room B,10,8.9,2,6.8,Monday,2.35,Minimalist
+17/12/2024,Room B,10,7.3,3,8.2,Tuesday,1.92,Minimalist
+18/12/2024,Room B,10,9.9,3,-0.1,Wednesday,4.61,Minimalist
+19/12/2024,Room B,10,6.7,2,9.8,Thursday,1.27,Minimalist
+20/12/2024,Room B,10,10.7,3,5.1,Friday,3.62,Minimalist
+21/12/2024,Room B,10,9.3,3,9.5,Saturday,1.99,Minimalist
+22/12/2024,Room B,10,7.2,2,7.4,Sunday,3.22,Minimalist
+23/12/2024,Room B,10,7.5,2,4.1,Monday,3.66,Minimalist
+24/12/2024,Room B,10,10.6,2,8.0,Tuesday,2.56,Minimalist
+25/12/2024,Room B,10,8.1,3,4.3,Wednesday,3.66,Minimalist
+26/12/2024,Room B,10,6.6,3,6.5,Thursday,4.42,Minimalist
+27/12/2024,Room B,10,6.6,2,0.4,Friday,3.92,Minimalist
+28/12/2024,Room B,10,10.8,3,1.5,Saturday,4.82,Minimalist
+29/12/2024,Room B,10,9.9,2,4.2,Sunday,3.07,Minimalist
+30/12/2024,Room B,10,6.9,3,7.2,Monday,3.06,Minimalist
+31/12/2024,Room B,10,9.7,2,3.3,Tuesday,3.98,Minimalist
+01/01/2025,Room B,10,11.9,2,6.2,Wednesday,3.47,Minimalist
+02/01/2025,Room B,10,8.2,3,5.7,Thursday,3.25,Minimalist
+03/01/2025,Room B,10,8.6,3,4.1,Friday,3.94,Minimalist
+04/01/2025,Room B,10,7.9,2,8.0,Saturday,2.01,Minimalist
+05/01/2025,Room B,10,10.0,2,7.8,Sunday,2.54,Minimalist
+06/01/2025,Room B,10,6.6,3,8.2,Monday,1.92,Minimalist
+07/01/2025,Room B,10,6.5,2,8.7,Tuesday,2.09,Minimalist
+08/01/2025,Room B,10,6.7,3,8.5,Wednesday,2.11,Minimalist
+09/01/2025,Room B,10,10.9,3,6.1,Thursday,2.39,Minimalist
+10/01/2025,Room B,10,10.9,3,3.7,Friday,3.67,Minimalist
+11/01/2025,Room B,10,10.3,3,4.0,Saturday,3.67,Minimalist
+12/01/2025,Room B,10,8.5,3,7.7,Sunday,2.4,Minimalist
+13/01/2025,Room B,10,10.5,2,5.0,Monday,2.43,Minimalist
+14/01/2025,Room B,10,10.4,3,12.8,Tuesday,0.5,Minimalist
+15/01/2025,Room B,10,9.8,3,8.2,Wednesday,2.61,Minimalist
+16/01/2025,Room B,10,7.9,3,5.5,Thursday,3.38,Minimalist
+17/01/2025,Room B,10,11.0,2,5.8,Friday,3.53,Minimalist
+18/01/2025,Room B,10,11.2,2,6.3,Saturday,2.82,Minimalist
+19/01/2025,Room B,10,6.2,2,4.0,Sunday,2.98,Minimalist
+20/01/2025,Room B,10,11.4,2,11.4,Monday,1.37,Minimalist
+21/01/2025,Room B,10,10.0,3,9.2,Tuesday,2.68,Minimalist
+22/01/2025,Room B,10,6.0,2,9.6,Wednesday,1.8,Minimalist
+23/01/2025,Room B,10,8.8,3,6.6,Thursday,2.51,Minimalist
+24/01/2025,Room B,10,8.5,2,4.1,Friday,3.35,Minimalist
+25/01/2025,Room B,10,6.3,3,6.4,Saturday,2.32,Minimalist
+26/01/2025,Room B,10,11.8,2,8.2,Sunday,2.29,Minimalist
+27/01/2025,Room B,10,6.1,2,9.2,Monday,2.05,Minimalist
+28/01/2025,Room B,10,9.8,2,10.0,Tuesday,2.9,Minimalist
+29/01/2025,Room B,10,6.7,3,9.0,Wednesday,1.88,Minimalist
+30/01/2025,Room B,10,10.9,2,1.9,Thursday,4.69,Minimalist
+31/01/2025,Room B,10,10.5,3,3.8,Friday,3.46,Minimalist
+01/02/2025,Room B,10,8.0,3,5.9,Saturday,3.52,Minimalist
+02/02/2025,Room B,10,6.2,2,9.2,Sunday,1.44,Minimalist
+03/02/2025,Room B,10,9.4,2,9.6,Monday,1.63,Minimalist
+04/02/2025,Room B,10,6.6,2,4.2,Tuesday,3.41,Minimalist
+05/02/2025,Room B,10,8.0,3,3.6,Wednesday,3.76,Minimalist
+06/02/2025,Room B,10,9.8,3,13.3,Thursday,0.53,Minimalist
+07/02/2025,Room B,10,10.1,3,8.7,Friday,3.08,Minimalist
+08/02/2025,Room B,10,8.9,3,6.3,Saturday,2.69,Minimalist
+09/02/2025,Room B,10,8.8,2,4.3,Sunday,3.02,Minimalist
+10/02/2025,Room B,10,6.4,2,13.9,Monday,0.5,Minimalist
+11/02/2025,Room B,10,7.4,3,9.4,Tuesday,2.12,Minimalist
+12/02/2025,Room B,10,9.7,2,2.8,Wednesday,3.99,Minimalist
+13/02/2025,Room B,10,9.2,2,14.5,Thursday,0.5,Minimalist
+14/02/2025,Room B,10,9.4,3,10.3,Friday,1.68,Minimalist
+15/02/2025,Room B,10,7.7,3,5.5,Saturday,3.17,Minimalist
+16/02/2025,Room B,10,6.7,2,7.6,Sunday,1.9,Minimalist
+17/02/2025,Room B,10,6.2,3,7.6,Monday,2.94,Minimalist
+18/02/2025,Room B,10,8.4,3,5.8,Tuesday,2.87,Minimalist
+19/02/2025,Room B,10,10.0,2,8.7,Wednesday,2.46,Minimalist
+20/02/2025,Room B,10,10.9,2,2.3,Thursday,4.76,Minimalist
+21/02/2025,Room B,10,6.2,3,9.4,Friday,2.16,Minimalist
+22/02/2025,Room B,10,8.3,2,4.9,Saturday,3.44,Minimalist
+23/02/2025,Room B,10,9.6,3,5.0,Sunday,3.69,Minimalist
+24/02/2025,Room B,10,6.5,2,6.6,Monday,2.6,Minimalist
+25/02/2025,Room B,10,9.9,3,5.4,Tuesday,4.21,Minimalist
+26/02/2025,Room B,10,6.1,3,10.5,Wednesday,0.68,Minimalist
+27/02/2025,Room B,10,9.8,2,6.1,Thursday,2.9,Minimalist
+28/02/2025,Room B,10,6.1,3,3.6,Friday,3.69,Minimalist
+01/03/2025,Room B,10,6.5,2,-0.4,Saturday,5.44,Minimalist
+02/03/2025,Room B,10,10.4,2,1.1,Sunday,4.97,Minimalist
+03/03/2025,Room B,10,11.1,3,6.5,Monday,2.94,Minimalist
+04/03/2025,Room B,10,7.8,3,3.4,Tuesday,4.32,Minimalist
+05/03/2025,Room B,10,8.3,2,2.8,Wednesday,4.13,Minimalist
+06/03/2025,Room B,10,9.5,3,1.5,Thursday,4.24,Minimalist
+07/03/2025,Room B,10,8.4,3,6.2,Friday,3.04,Minimalist
+08/03/2025,Room B,10,8.6,3,3.7,Saturday,3.63,Minimalist
+09/03/2025,Room B,10,9.1,3,6.5,Sunday,3.26,Minimalist
+10/03/2025,Room B,10,6.4,3,2.8,Monday,4.52,Minimalist
+11/03/2025,Room B,10,11.1,3,4.4,Tuesday,3.99,Minimalist
+12/03/2025,Room B,10,11.9,2,3.3,Wednesday,3.81,Minimalist
+13/03/2025,Room B,10,6.8,3,7.1,Thursday,2.87,Minimalist
+14/03/2025,Room B,10,6.1,2,3.7,Friday,3.22,Minimalist
+15/03/2025,Room B,10,6.8,3,6.9,Saturday,2.13,Minimalist
+16/03/2025,Room B,10,9.6,3,9.1,Sunday,2.17,Minimalist
+17/03/2025,Room B,10,9.6,3,4.4,Monday,3.79,Minimalist
+18/03/2025,Room B,10,8.0,3,2.4,Tuesday,3.45,Minimalist
+19/03/2025,Room B,10,9.2,2,6.9,Wednesday,2.93,Minimalist
+20/03/2025,Room B,10,8.6,3,8.9,Thursday,2.54,Minimalist
+21/03/2025,Room B,10,7.1,2,8.6,Friday,2.44,Minimalist
+22/03/2025,Room B,10,11.8,2,3.2,Saturday,3.68,Minimalist
+23/03/2025,Room B,10,9.5,2,3.3,Sunday,3.95,Minimalist
+24/03/2025,Room B,10,8.9,2,13.2,Monday,0.5,Minimalist
+25/03/2025,Room B,10,7.8,3,9.1,Tuesday,2.57,Minimalist
+26/03/2025,Room B,10,7.2,2,12.9,Wednesday,1.32,Minimalist
+27/03/2025,Room B,10,10.3,3,7.3,Thursday,2.91,Minimalist
+28/03/2025,Room B,10,9.2,3,7.8,Friday,2.93,Minimalist
+30/09/2024,Room C,12,6.7,3,5.0,Monday,3.42,On Placement
+01/10/2024,Room C,12,15.9,4,6.6,Tuesday,3.41,On Placement
+02/10/2024,Room C,12,5.2,4,6.8,Wednesday,3.69,On Placement
+03/10/2024,Room C,12,14.6,3,4.3,Thursday,4.05,On Placement
+04/10/2024,Room C,12,5.4,3,9.2,Friday,2.07,On Placement
+05/10/2024,Room C,12,14.6,4,10.6,Saturday,2.52,On Placement
+06/10/2024,Room C,12,16.0,4,6.7,Sunday,4.69,On Placement
+07/10/2024,Room C,12,7.4,4,6.4,Monday,3.78,On Placement
+08/10/2024,Room C,12,11.5,3,4.7,Tuesday,3.42,On Placement
+09/10/2024,Room C,12,7.7,4,14.0,Wednesday,1.07,On Placement
+10/10/2024,Room C,12,13.9,4,13.7,Thursday,1.9,On Placement
+11/10/2024,Room C,12,4.8,3,5.1,Friday,3.58,On Placement
+12/10/2024,Room C,12,13.8,3,6.6,Saturday,3.41,On Placement
+13/10/2024,Room C,12,14.6,4,8.3,Sunday,3.09,On Placement
+14/10/2024,Room C,12,6.8,3,7.5,Monday,2.69,On Placement
+15/10/2024,Room C,12,10.5,4,6.9,Tuesday,2.93,On Placement
+16/10/2024,Room C,12,6.5,3,8.4,Wednesday,1.4,On Placement
+17/10/2024,Room C,12,11.8,4,7.1,Thursday,3.76,On Placement
+18/10/2024,Room C,12,4.6,4,6.6,Friday,2.07,On Placement
+19/10/2024,Room C,12,11.4,3,2.2,Saturday,4.3,On Placement
+20/10/2024,Room C,12,10.9,3,2.2,Sunday,4.25,On Placement
+21/10/2024,Room C,12,5.9,3,6.2,Monday,3.26,On Placement
+22/10/2024,Room C,12,10.2,3,2.6,Tuesday,4.58,On Placement
+23/10/2024,Room C,12,4.5,3,11.1,Wednesday,0.67,On Placement
+24/10/2024,Room C,12,12.7,4,9.0,Thursday,3.17,On Placement
+25/10/2024,Room C,12,6.7,4,5.1,Friday,3.65,On Placement
+26/10/2024,Room C,12,11.8,3,2.3,Saturday,4.58,On Placement
+27/10/2024,Room C,12,10.9,3,10.2,Sunday,3.61,On Placement
+28/10/2024,Room C,12,4.6,4,4.9,Monday,4.17,On Placement
+29/10/2024,Room C,12,10.3,4,8.0,Tuesday,2.56,On Placement
+30/10/2024,Room C,12,4.8,3,4.4,Wednesday,3.25,On Placement
+31/10/2024,Room C,12,15.0,3,6.0,Thursday,3.98,On Placement
+01/11/2024,Room C,12,4.3,4,8.4,Friday,2.21,On Placement
+02/11/2024,Room C,12,11.6,3,6.2,Saturday,3.12,On Placement
+03/11/2024,Room C,12,15.4,3,7.6,Sunday,3.99,On Placement
+04/11/2024,Room C,12,5.5,4,9.6,Monday,2.02,On Placement
+05/11/2024,Room C,12,10.3,3,4.8,Tuesday,3.97,On Placement
+06/11/2024,Room C,12,6.8,4,11.7,Wednesday,0.91,On Placement
+07/11/2024,Room C,12,15.3,3,5.8,Thursday,3.69,On Placement
+08/11/2024,Room C,12,5.2,3,7.3,Friday,2.64,On Placement
+09/11/2024,Room C,12,16.0,3,13.7,Saturday,1.48,On Placement
+10/11/2024,Room C,12,13.0,3,8.2,Sunday,2.97,On Placement
+11/11/2024,Room C,12,6.5,3,4.0,Monday,3.62,On Placement
+12/11/2024,Room C,12,14.6,4,5.5,Tuesday,4.14,On Placement
+13/11/2024,Room C,12,6.9,3,0.5,Wednesday,5.41,On Placement
+14/11/2024,Room C,12,15.3,3,5.9,Thursday,5.01,On Placement
+15/11/2024,Room C,12,4.1,3,8.9,Friday,2.31,On Placement
+16/11/2024,Room C,12,14.4,4,8.1,Saturday,2.95,On Placement
+17/11/2024,Room C,12,13.5,3,6.0,Sunday,4.74,On Placement
+18/11/2024,Room C,12,4.2,4,4.4,Monday,2.81,On Placement
+19/11/2024,Room C,12,10.6,4,7.7,Tuesday,3.89,On Placement
+20/11/2024,Room C,12,6.0,3,6.3,Wednesday,2.41,On Placement
+21/11/2024,Room C,12,11.6,3,9.0,Thursday,2.53,On Placement
+22/11/2024,Room C,12,6.1,4,8.6,Friday,2.4,On Placement
+23/11/2024,Room C,12,11.6,3,6.2,Saturday,4.29,On Placement
+24/11/2024,Room C,12,10.8,3,8.3,Sunday,2.79,On Placement
+25/11/2024,Room C,12,5.5,3,6.4,Monday,2.47,On Placement
+26/11/2024,Room C,12,13.1,4,9.9,Tuesday,2.36,On Placement
+27/11/2024,Room C,12,6.3,3,9.9,Wednesday,2.83,On Placement
+28/11/2024,Room C,12,15.1,3,7.5,Thursday,3.49,On Placement
+29/11/2024,Room C,12,6.4,4,10.8,Friday,1.9,On Placement
+30/11/2024,Room C,12,11.8,3,0.2,Saturday,4.86,On Placement
+01/12/2024,Room C,12,13.6,3,7.9,Sunday,3.26,On Placement
+02/12/2024,Room C,12,4.2,4,6.5,Monday,3.71,On Placement
+03/12/2024,Room C,12,13.9,4,13.4,Tuesday,1.99,On Placement
+04/12/2024,Room C,12,4.9,4,6.4,Wednesday,2.65,On Placement
+05/12/2024,Room C,12,15.1,3,9.5,Thursday,2.98,On Placement
+06/12/2024,Room C,12,7.2,4,3.7,Friday,4.15,On Placement
+07/12/2024,Room C,12,15.7,4,10.4,Saturday,3.12,On Placement
+08/12/2024,Room C,12,15.3,3,6.2,Sunday,2.95,On Placement
+09/12/2024,Room C,12,7.7,4,10.3,Monday,2.63,On Placement
+10/12/2024,Room C,12,10.8,4,4.5,Tuesday,5.18,On Placement
+11/12/2024,Room C,12,5.4,4,10.1,Wednesday,1.52,On Placement
+12/12/2024,Room C,12,11.6,4,5.4,Thursday,4.05,On Placement
+13/12/2024,Room C,12,4.7,3,7.8,Friday,3.1,On Placement
+14/12/2024,Room C,12,10.3,3,2.7,Saturday,4.28,On Placement
+15/12/2024,Room C,12,14.0,3,-0.1,Sunday,5.93,On Placement
+16/12/2024,Room C,12,5.0,3,7.1,Monday,2.73,On Placement
+17/12/2024,Room C,12,14.2,3,4.5,Tuesday,4.92,On Placement
+18/12/2024,Room C,12,7.0,3,8.3,Wednesday,2.43,On Placement
+19/12/2024,Room C,12,11.9,4,8.2,Thursday,3.38,On Placement
+20/12/2024,Room C,12,4.7,4,11.2,Friday,2.1,On Placement
+21/12/2024,Room C,12,13.6,3,8.7,Saturday,3.16,On Placement
+22/12/2024,Room C,12,11.9,4,3.2,Sunday,4.92,On Placement
+23/12/2024,Room C,12,5.0,3,11.2,Monday,1.39,On Placement
+24/12/2024,Room C,12,14.0,4,6.9,Tuesday,3.47,On Placement
+25/12/2024,Room C,12,5.9,3,17.5,Wednesday,0.5,On Placement
+26/12/2024,Room C,12,15.5,3,11.3,Thursday,2.07,On Placement
+27/12/2024,Room C,12,6.5,3,1.9,Friday,4.07,On Placement
+28/12/2024,Room C,12,12.2,4,8.2,Saturday,2.36,On Placement
+29/12/2024,Room C,12,15.7,4,4.6,Sunday,4.97,On Placement
+30/12/2024,Room C,12,7.8,3,5.8,Monday,3.59,On Placement
+31/12/2024,Room C,12,12.6,4,8.5,Tuesday,3.96,On Placement
+01/01/2025,Room C,12,5.4,3,4.6,Wednesday,3.84,On Placement
+02/01/2025,Room C,12,14.9,4,11.3,Thursday,2.25,On Placement
+03/01/2025,Room C,12,6.4,3,2.6,Friday,4.04,On Placement
+04/01/2025,Room C,12,10.2,4,9.2,Saturday,1.84,On Placement
+05/01/2025,Room C,12,12.5,4,7.0,Sunday,3.89,On Placement
+06/01/2025,Room C,12,5.4,4,9.7,Monday,2.4,On Placement
+07/01/2025,Room C,12,12.6,3,1.7,Tuesday,5.12,On Placement
+08/01/2025,Room C,12,6.1,3,9.9,Wednesday,0.75,On Placement
+09/01/2025,Room C,12,10.3,4,9.1,Thursday,1.43,On Placement
+10/01/2025,Room C,12,4.0,4,5.3,Friday,2.93,On Placement
+11/01/2025,Room C,12,14.5,3,9.0,Saturday,2.36,On Placement
+12/01/2025,Room C,12,15.4,3,8.8,Sunday,3.8,On Placement
+13/01/2025,Room C,12,4.7,4,9.6,Monday,2.29,On Placement
+14/01/2025,Room C,12,14.6,4,2.9,Tuesday,4.76,On Placement
+15/01/2025,Room C,12,4.3,3,12.2,Wednesday,1.46,On Placement
+16/01/2025,Room C,12,11.6,4,7.4,Thursday,2.47,On Placement
+17/01/2025,Room C,12,6.9,3,2.2,Friday,4.61,On Placement
+18/01/2025,Room C,12,14.3,3,11.4,Saturday,2.37,On Placement
+19/01/2025,Room C,12,15.0,4,8.8,Sunday,3.16,On Placement
+20/01/2025,Room C,12,4.5,3,6.2,Monday,2.91,On Placement
+21/01/2025,Room C,12,14.8,3,5.7,Tuesday,4.3,On Placement
+22/01/2025,Room C,12,6.7,3,5.9,Wednesday,2.87,On Placement
+23/01/2025,Room C,12,14.4,3,8.3,Thursday,3.53,On Placement
+24/01/2025,Room C,12,5.2,4,11.9,Friday,0.5,On Placement
+25/01/2025,Room C,12,14.4,4,8.4,Saturday,3.06,On Placement
+26/01/2025,Room C,12,13.7,4,7.8,Sunday,3.28,On Placement
+27/01/2025,Room C,12,6.8,3,2.4,Monday,3.97,On Placement
+28/01/2025,Room C,12,13.2,3,7.9,Tuesday,4.07,On Placement
+29/01/2025,Room C,12,7.5,3,12.5,Wednesday,1.23,On Placement
+30/01/2025,Room C,12,14.1,4,7.6,Thursday,3.65,On Placement
+31/01/2025,Room C,12,6.7,3,9.1,Friday,1.95,On Placement
+01/02/2025,Room C,12,15.6,4,6.4,Saturday,3.81,On Placement
+02/02/2025,Room C,12,11.7,3,7.2,Sunday,2.89,On Placement
+03/02/2025,Room C,12,7.7,3,5.9,Monday,2.56,On Placement
+04/02/2025,Room C,12,10.4,3,5.1,Tuesday,4.47,On Placement
+05/02/2025,Room C,12,5.3,4,5.0,Wednesday,3.32,On Placement
+06/02/2025,Room C,12,12.2,4,5.7,Thursday,3.83,On Placement
+07/02/2025,Room C,12,7.1,4,5.3,Friday,3.69,On Placement
+08/02/2025,Room C,12,11.7,4,5.8,Saturday,3.97,On Placement
+09/02/2025,Room C,12,15.9,4,6.9,Sunday,3.78,On Placement
+10/02/2025,Room C,12,6.8,3,11.5,Monday,1.11,On Placement
+11/02/2025,Room C,12,10.4,3,7.3,Tuesday,2.34,On Placement
+12/02/2025,Room C,12,5.1,4,6.7,Wednesday,2.16,On Placement
+13/02/2025,Room C,12,10.9,3,12.6,Thursday,1.75,On Placement
+14/02/2025,Room C,12,4.4,4,6.7,Friday,2.9,On Placement
+15/02/2025,Room C,12,13.3,3,4.3,Saturday,4.18,On Placement
+16/02/2025,Room C,12,14.2,4,9.4,Sunday,2.42,On Placement
+17/02/2025,Room C,12,5.0,4,9.3,Monday,3.36,On Placement
+18/02/2025,Room C,12,13.5,4,6.4,Tuesday,3.98,On Placement
+19/02/2025,Room C,12,6.5,3,5.5,Wednesday,3.13,On Placement
+20/02/2025,Room C,12,12.7,3,2.4,Thursday,5.01,On Placement
+21/02/2025,Room C,12,6.5,4,9.2,Friday,1.85,On Placement
+22/02/2025,Room C,12,14.5,3,4.4,Saturday,4.26,On Placement
+23/02/2025,Room C,12,14.9,3,8.1,Sunday,3.42,On Placement
+24/02/2025,Room C,12,6.6,4,12.2,Monday,2.07,On Placement
+25/02/2025,Room C,12,13.9,3,4.1,Tuesday,4.68,On Placement
+26/02/2025,Room C,12,4.1,3,8.1,Wednesday,2.47,On Placement
+27/02/2025,Room C,12,11.3,3,4.1,Thursday,3.17,On Placement
+28/02/2025,Room C,12,7.8,4,5.3,Friday,3.72,On Placement
+01/03/2025,Room C,12,13.0,3,6.2,Saturday,4.09,On Placement
+02/03/2025,Room C,12,13.7,3,2.8,Sunday,4.83,On Placement
+03/03/2025,Room C,12,5.7,3,9.9,Monday,1.41,On Placement
+04/03/2025,Room C,12,11.6,4,10.2,Tuesday,3.68,On Placement
+05/03/2025,Room C,12,6.6,4,10.0,Wednesday,1.94,On Placement
+06/03/2025,Room C,12,13.9,3,2.2,Thursday,3.93,On Placement
+07/03/2025,Room C,12,6.0,4,5.8,Friday,3.96,On Placement
+08/03/2025,Room C,12,11.8,4,5.8,Saturday,3.81,On Placement
+09/03/2025,Room C,12,10.2,4,4.6,Sunday,2.82,On Placement
+10/03/2025,Room C,12,5.6,4,7.8,Monday,2.45,On Placement
+11/03/2025,Room C,12,10.7,3,9.2,Tuesday,2.42,On Placement
+12/03/2025,Room C,12,7.3,4,9.4,Wednesday,2.48,On Placement
+13/03/2025,Room C,12,10.0,4,11.1,Thursday,1.96,On Placement
+14/03/2025,Room C,12,6.1,3,7.3,Friday,1.79,On Placement
+15/03/2025,Room C,12,15.2,3,6.2,Saturday,3.95,On Placement
+16/03/2025,Room C,12,15.7,4,8.6,Sunday,3.25,On Placement
+17/03/2025,Room C,12,5.1,4,2.8,Monday,4.78,On Placement
+18/03/2025,Room C,12,13.0,4,10.2,Tuesday,1.57,On Placement
+19/03/2025,Room C,12,7.5,4,11.3,Wednesday,1.8,On Placement
+20/03/2025,Room C,12,12.6,4,8.3,Thursday,3.49,On Placement
+21/03/2025,Room C,12,5.6,4,5.9,Friday,2.28,On Placement
+22/03/2025,Room C,12,10.7,3,3.9,Saturday,4.48,On Placement
+23/03/2025,Room C,12,13.2,4,8.9,Sunday,3.27,On Placement
+24/03/2025,Room C,12,4.3,3,3.3,Monday,3.68,On Placement
+25/03/2025,Room C,12,15.3,4,11.7,Tuesday,2.12,On Placement
+26/03/2025,Room C,12,4.9,3,4.7,Wednesday,3.15,On Placement
+27/03/2025,Room C,12,11.0,3,5.0,Thursday,3.29,On Placement
+28/03/2025,Room C,12,4.9,4,2.9,Friday,3.75,On Placement
+30/09/2024,Room D,16,15.3,4,7.8,Monday,3.82,High Heating Preference
+01/10/2024,Room D,16,17.6,4,11.0,Tuesday,1.88,High Heating Preference
+02/10/2024,Room D,16,14.6,4,4.7,Wednesday,4.97,High Heating Preference
+03/10/2024,Room D,16,16.3,4,8.0,Thursday,4.29,High Heating Preference
+04/10/2024,Room D,16,19.5,4,6.9,Friday,5.45,High Heating Preference
+05/10/2024,Room D,16,13.7,4,8.3,Saturday,3.07,High Heating Preference
+06/10/2024,Room D,16,18.2,4,9.2,Sunday,4.2,High Heating Preference
+07/10/2024,Room D,16,18.3,4,6.1,Monday,4.58,High Heating Preference
+08/10/2024,Room D,16,19.1,4,4.3,Tuesday,6.08,High Heating Preference
+09/10/2024,Room D,16,12.1,5,3.7,Wednesday,5.31,High Heating Preference
+10/10/2024,Room D,16,15.7,5,10.2,Thursday,3.74,High Heating Preference
+11/10/2024,Room D,16,14.7,4,6.8,Friday,4.63,High Heating Preference
+12/10/2024,Room D,16,18.6,4,10.1,Saturday,4.98,High Heating Preference
+13/10/2024,Room D,16,12.6,5,6.7,Sunday,4.55,High Heating Preference
+14/10/2024,Room D,16,12.3,5,4.3,Monday,4.4,High Heating Preference
+15/10/2024,Room D,16,19.7,5,9.5,Tuesday,2.79,High Heating Preference
+16/10/2024,Room D,16,15.6,4,8.1,Wednesday,3.75,High Heating Preference
+17/10/2024,Room D,16,20.0,4,6.1,Thursday,5.44,High Heating Preference
+18/10/2024,Room D,16,12.6,5,6.8,Friday,3.73,High Heating Preference
+19/10/2024,Room D,16,15.0,4,5.1,Saturday,4.47,High Heating Preference
+20/10/2024,Room D,16,14.8,5,5.6,Sunday,4.52,High Heating Preference
+21/10/2024,Room D,16,12.0,5,6.4,Monday,5.15,High Heating Preference
+22/10/2024,Room D,16,15.4,5,7.3,Tuesday,3.86,High Heating Preference
+23/10/2024,Room D,16,18.4,5,9.1,Wednesday,4.3,High Heating Preference
+24/10/2024,Room D,16,15.1,5,9.0,Thursday,3.15,High Heating Preference
+25/10/2024,Room D,16,18.0,4,7.5,Friday,4.11,High Heating Preference
+26/10/2024,Room D,16,15.5,5,8.9,Saturday,2.94,High Heating Preference
+27/10/2024,Room D,16,17.1,5,7.6,Sunday,4.7,High Heating Preference
+28/10/2024,Room D,16,17.7,5,4.8,Monday,4.29,High Heating Preference
+29/10/2024,Room D,16,13.9,4,5.1,Tuesday,3.96,High Heating Preference
+30/10/2024,Room D,16,16.5,5,9.8,Wednesday,3.93,High Heating Preference
+31/10/2024,Room D,16,18.6,5,4.3,Thursday,6.13,High Heating Preference
+01/11/2024,Room D,16,16.4,4,6.8,Friday,4.48,High Heating Preference
+02/11/2024,Room D,16,17.1,4,7.3,Saturday,4.09,High Heating Preference
+03/11/2024,Room D,16,15.7,5,10.9,Sunday,3.16,High Heating Preference
+04/11/2024,Room D,16,14.1,4,8.4,Monday,2.81,High Heating Preference
+05/11/2024,Room D,16,15.7,4,8.8,Tuesday,3.78,High Heating Preference
+06/11/2024,Room D,16,15.5,4,4.2,Wednesday,5.62,High Heating Preference
+07/11/2024,Room D,16,15.3,5,1.9,Thursday,5.63,High Heating Preference
+08/11/2024,Room D,16,12.3,5,8.0,Friday,2.83,High Heating Preference
+09/11/2024,Room D,16,13.6,5,5.9,Saturday,5.09,High Heating Preference
+10/11/2024,Room D,16,20.0,5,9.0,Sunday,3.95,High Heating Preference
+11/11/2024,Room D,16,18.5,4,7.7,Monday,3.95,High Heating Preference
+12/11/2024,Room D,16,18.9,4,9.3,Tuesday,4.01,High Heating Preference
+13/11/2024,Room D,16,14.4,4,14.3,Wednesday,1.15,High Heating Preference
+14/11/2024,Room D,16,16.5,4,10.6,Thursday,2.76,High Heating Preference
+15/11/2024,Room D,16,12.1,4,6.3,Friday,3.66,High Heating Preference
+16/11/2024,Room D,16,18.1,5,8.9,Saturday,4.61,High Heating Preference
+17/11/2024,Room D,16,12.0,4,7.1,Sunday,3.12,High Heating Preference
+18/11/2024,Room D,16,16.7,4,9.9,Monday,3.46,High Heating Preference
+19/11/2024,Room D,16,17.9,5,7.6,Tuesday,4.01,High Heating Preference
+20/11/2024,Room D,16,13.8,4,4.5,Wednesday,5.39,High Heating Preference
+21/11/2024,Room D,16,15.0,5,6.1,Thursday,4.96,High Heating Preference
+22/11/2024,Room D,16,20.0,5,2.6,Friday,6.09,High Heating Preference
+23/11/2024,Room D,16,15.7,5,10.4,Saturday,3.23,High Heating Preference
+24/11/2024,Room D,16,15.6,5,5.2,Sunday,4.86,High Heating Preference
+25/11/2024,Room D,16,12.9,4,9.8,Monday,2.77,High Heating Preference
+26/11/2024,Room D,16,17.5,4,7.0,Tuesday,3.61,High Heating Preference
+27/11/2024,Room D,16,18.5,4,11.8,Wednesday,3.08,High Heating Preference
+28/11/2024,Room D,16,15.6,4,8.7,Thursday,3.12,High Heating Preference
+29/11/2024,Room D,16,12.5,5,8.9,Friday,3.34,High Heating Preference
+30/11/2024,Room D,16,17.6,5,8.6,Saturday,4.65,High Heating Preference
+01/12/2024,Room D,16,19.3,5,12.7,Sunday,2.68,High Heating Preference
+02/12/2024,Room D,16,13.2,4,-0.6,Monday,5.95,High Heating Preference
+03/12/2024,Room D,16,12.6,4,8.3,Tuesday,3.88,High Heating Preference
+04/12/2024,Room D,16,12.4,5,1.8,Wednesday,6.06,High Heating Preference
+05/12/2024,Room D,16,14.0,5,7.6,Thursday,4.28,High Heating Preference
+06/12/2024,Room D,16,18.9,4,3.6,Friday,5.72,High Heating Preference
+07/12/2024,Room D,16,18.4,5,4.0,Saturday,6.2,High Heating Preference
+08/12/2024,Room D,16,15.7,4,7.9,Sunday,3.85,High Heating Preference
+09/12/2024,Room D,16,14.8,4,5.7,Monday,4.54,High Heating Preference
+10/12/2024,Room D,16,12.6,5,6.4,Tuesday,3.77,High Heating Preference
+11/12/2024,Room D,16,12.4,5,6.7,Wednesday,3.39,High Heating Preference
+12/12/2024,Room D,16,18.4,5,1.9,Thursday,5.84,High Heating Preference
+13/12/2024,Room D,16,12.2,5,3.2,Friday,5.34,High Heating Preference
+14/12/2024,Room D,16,17.4,5,4.7,Saturday,4.48,High Heating Preference
+15/12/2024,Room D,16,12.6,5,7.6,Sunday,3.93,High Heating Preference
+16/12/2024,Room D,16,16.5,5,1.2,Monday,6.0,High Heating Preference
+17/12/2024,Room D,16,18.2,5,6.8,Tuesday,3.98,High Heating Preference
+18/12/2024,Room D,16,14.2,5,8.0,Wednesday,3.3,High Heating Preference
+19/12/2024,Room D,16,19.9,5,6.5,Thursday,5.35,High Heating Preference
+20/12/2024,Room D,16,17.8,5,3.4,Friday,4.39,High Heating Preference
+21/12/2024,Room D,16,17.3,5,7.7,Saturday,4.25,High Heating Preference
+22/12/2024,Room D,16,18.7,4,8.2,Sunday,3.05,High Heating Preference
+23/12/2024,Room D,16,15.8,4,7.0,Monday,3.89,High Heating Preference
+24/12/2024,Room D,16,18.7,4,-3.0,Tuesday,6.63,High Heating Preference
+25/12/2024,Room D,16,13.0,4,7.6,Wednesday,3.48,High Heating Preference
+26/12/2024,Room D,16,13.0,4,11.7,Thursday,2.26,High Heating Preference
+27/12/2024,Room D,16,16.1,5,12.2,Friday,2.79,High Heating Preference
+28/12/2024,Room D,16,16.4,4,3.3,Saturday,5.58,High Heating Preference
+29/12/2024,Room D,16,13.1,5,4.4,Sunday,5.28,High Heating Preference
+30/12/2024,Room D,16,13.7,4,5.2,Monday,3.99,High Heating Preference
+31/12/2024,Room D,16,16.8,5,9.5,Tuesday,3.52,High Heating Preference
+01/01/2025,Room D,16,13.1,5,7.2,Wednesday,4.18,High Heating Preference
+02/01/2025,Room D,16,17.8,4,6.1,Thursday,4.93,High Heating Preference
+03/01/2025,Room D,16,17.4,4,5.4,Friday,4.96,High Heating Preference
+04/01/2025,Room D,16,16.2,4,7.4,Saturday,3.16,High Heating Preference
+05/01/2025,Room D,16,17.0,4,7.9,Sunday,4.12,High Heating Preference
+06/01/2025,Room D,16,16.4,4,4.7,Monday,4.4,High Heating Preference
+07/01/2025,Room D,16,19.4,4,6.9,Tuesday,4.01,High Heating Preference
+08/01/2025,Room D,16,19.4,4,7.4,Wednesday,4.6,High Heating Preference
+09/01/2025,Room D,16,15.7,4,6.8,Thursday,4.58,High Heating Preference
+10/01/2025,Room D,16,18.1,4,9.6,Friday,4.29,High Heating Preference
+11/01/2025,Room D,16,18.6,4,5.4,Saturday,5.53,High Heating Preference
+12/01/2025,Room D,16,12.4,4,10.4,Sunday,3.09,High Heating Preference
+13/01/2025,Room D,16,19.3,5,14.2,Monday,2.57,High Heating Preference
+14/01/2025,Room D,16,17.0,5,5.7,Tuesday,4.95,High Heating Preference
+15/01/2025,Room D,16,18.7,4,0.7,Wednesday,7.11,High Heating Preference
+16/01/2025,Room D,16,13.7,5,8.9,Thursday,3.87,High Heating Preference
+17/01/2025,Room D,16,14.2,5,7.7,Friday,3.45,High Heating Preference
+18/01/2025,Room D,16,13.6,4,9.6,Saturday,3.84,High Heating Preference
+19/01/2025,Room D,16,18.2,5,5.4,Sunday,5.18,High Heating Preference
+20/01/2025,Room D,16,18.7,5,10.4,Monday,3.64,High Heating Preference
+21/01/2025,Room D,16,12.2,5,5.1,Tuesday,4.41,High Heating Preference
+22/01/2025,Room D,16,14.3,4,4.5,Wednesday,4.61,High Heating Preference
+23/01/2025,Room D,16,19.7,4,6.4,Thursday,4.61,High Heating Preference
+24/01/2025,Room D,16,16.8,5,7.4,Friday,4.07,High Heating Preference
+25/01/2025,Room D,16,18.8,4,3.5,Saturday,6.01,High Heating Preference
+26/01/2025,Room D,16,14.8,4,7.5,Sunday,5.1,High Heating Preference
+27/01/2025,Room D,16,19.9,5,9.6,Monday,4.64,High Heating Preference
+28/01/2025,Room D,16,14.5,5,4.9,Tuesday,4.57,High Heating Preference
+29/01/2025,Room D,16,18.7,4,4.5,Wednesday,4.48,High Heating Preference
+30/01/2025,Room D,16,13.3,4,2.8,Thursday,4.97,High Heating Preference
+31/01/2025,Room D,16,13.2,5,8.0,Friday,3.15,High Heating Preference
+01/02/2025,Room D,16,13.5,5,9.5,Saturday,3.23,High Heating Preference
+02/02/2025,Room D,16,18.0,5,13.2,Sunday,2.45,High Heating Preference
+03/02/2025,Room D,16,14.4,4,4.6,Monday,4.37,High Heating Preference
+04/02/2025,Room D,16,15.2,4,4.2,Tuesday,5.75,High Heating Preference
+05/02/2025,Room D,16,14.4,5,10.8,Wednesday,2.64,High Heating Preference
+06/02/2025,Room D,16,13.5,5,3.7,Thursday,5.51,High Heating Preference
+07/02/2025,Room D,16,18.9,5,7.4,Friday,4.77,High Heating Preference
+08/02/2025,Room D,16,16.3,5,8.1,Saturday,3.72,High Heating Preference
+09/02/2025,Room D,16,13.1,4,8.0,Sunday,3.59,High Heating Preference
+10/02/2025,Room D,16,12.9,4,3.4,Monday,4.76,High Heating Preference
+11/02/2025,Room D,16,13.7,4,5.8,Tuesday,4.18,High Heating Preference
+12/02/2025,Room D,16,18.6,5,8.6,Wednesday,4.17,High Heating Preference
+13/02/2025,Room D,16,15.3,5,12.7,Thursday,2.63,High Heating Preference
+14/02/2025,Room D,16,12.8,4,8.4,Friday,3.62,High Heating Preference
+15/02/2025,Room D,16,12.7,5,6.4,Saturday,3.84,High Heating Preference
+16/02/2025,Room D,16,12.3,5,11.5,Sunday,2.86,High Heating Preference
+17/02/2025,Room D,16,19.0,4,5.9,Monday,4.96,High Heating Preference
+18/02/2025,Room D,16,19.5,5,1.8,Tuesday,6.51,High Heating Preference
+19/02/2025,Room D,16,12.3,5,11.1,Wednesday,2.52,High Heating Preference
+20/02/2025,Room D,16,12.4,5,1.3,Thursday,5.23,High Heating Preference
+21/02/2025,Room D,16,13.7,4,7.1,Friday,3.62,High Heating Preference
+22/02/2025,Room D,16,16.6,5,2.8,Saturday,5.96,High Heating Preference
+23/02/2025,Room D,16,12.6,4,7.8,Sunday,3.74,High Heating Preference
+24/02/2025,Room D,16,18.4,4,3.1,Monday,4.8,High Heating Preference
+25/02/2025,Room D,16,18.7,5,3.4,Tuesday,5.73,High Heating Preference
+26/02/2025,Room D,16,13.8,4,10.7,Wednesday,2.73,High Heating Preference
+27/02/2025,Room D,16,18.1,4,7.7,Thursday,3.56,High Heating Preference
+28/02/2025,Room D,16,19.5,5,1.4,Friday,6.13,High Heating Preference
+01/03/2025,Room D,16,15.4,5,5.4,Saturday,4.83,High Heating Preference
+02/03/2025,Room D,16,15.3,5,6.9,Sunday,3.99,High Heating Preference
+03/03/2025,Room D,16,14.7,4,10.6,Monday,3.66,High Heating Preference
+04/03/2025,Room D,16,15.3,4,6.0,Tuesday,4.43,High Heating Preference
+05/03/2025,Room D,16,12.4,4,11.7,Wednesday,2.37,High Heating Preference
+06/03/2025,Room D,16,16.4,5,6.4,Thursday,4.22,High Heating Preference
+07/03/2025,Room D,16,19.2,5,5.1,Friday,4.26,High Heating Preference
+08/03/2025,Room D,16,15.3,5,6.1,Saturday,4.1,High Heating Preference
+09/03/2025,Room D,16,13.7,5,1.7,Sunday,5.81,High Heating Preference
+10/03/2025,Room D,16,18.6,5,5.9,Monday,4.73,High Heating Preference
+11/03/2025,Room D,16,16.1,5,5.7,Tuesday,4.44,High Heating Preference
+12/03/2025,Room D,16,16.0,4,2.5,Wednesday,5.63,High Heating Preference
+13/03/2025,Room D,16,18.7,4,4.4,Thursday,4.6,High Heating Preference
+14/03/2025,Room D,16,15.2,5,11.1,Friday,3.7,High Heating Preference
+15/03/2025,Room D,16,18.2,4,6.3,Saturday,4.48,High Heating Preference
+16/03/2025,Room D,16,13.2,4,9.3,Sunday,3.4,High Heating Preference
+17/03/2025,Room D,16,18.1,5,5.8,Monday,4.74,High Heating Preference
+18/03/2025,Room D,16,15.9,5,9.0,Tuesday,3.46,High Heating Preference
+19/03/2025,Room D,16,13.7,5,8.5,Wednesday,3.48,High Heating Preference
+20/03/2025,Room D,16,17.8,4,6.7,Thursday,4.58,High Heating Preference
+21/03/2025,Room D,16,15.5,4,7.8,Friday,3.96,High Heating Preference
+22/03/2025,Room D,16,14.1,4,11.0,Saturday,2.46,High Heating Preference
+23/03/2025,Room D,16,15.4,4,6.5,Sunday,3.52,High Heating Preference
+24/03/2025,Room D,16,14.5,5,3.1,Monday,5.6,High Heating Preference
+25/03/2025,Room D,16,15.5,5,7.6,Tuesday,3.56,High Heating Preference
+26/03/2025,Room D,16,12.1,5,4.5,Wednesday,4.56,High Heating Preference
+27/03/2025,Room D,16,12.6,4,5.6,Thursday,3.7,High Heating Preference
+28/03/2025,Room D,16,19.4,5,8.5,Friday,4.02,High Heating Preference
