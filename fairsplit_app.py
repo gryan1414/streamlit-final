@@ -69,10 +69,11 @@ ax.legend()
 st.pyplot(fig)
 
 # --- Forecast Section ---
-st.subheader("📈 15-Day Energy Forecast for Room A")
-room_a = df[df['room_id'] == 'Room A'].copy()
-X = room_a[['room_size', 'occupancy_hours', 'device_count', 'avg_temp']]
-y = room_a['kwh_used']
+st.subheader("📈 15-Day Energy Forecast")
+selected_room = st.selectbox("Choose a room for forecast:", df['room_id'].unique())
+room_data = df[df['room_id'] == selected_room].copy()
+X = room_data[['room_size', 'occupancy_hours', 'device_count', 'avg_temp']]
+y = room_data['kwh_used']
 X_train, X_test = X[:-15], X[-15:]
 y_train, y_test = y[:-15], y[-15:]
 
@@ -83,9 +84,9 @@ r2 = r2_score(y_test, predictions)
 mse = mean_squared_error(y_test, predictions)
 
 fig, ax = plt.subplots()
-ax.plot(room_a['date'].iloc[-15:], y_test, label='Actual')
-ax.plot(room_a['date'].iloc[-15:], predictions, label='Forecast', marker='x')
-ax.set_title("Room A: Forecasted vs Actual Energy Usage")
+ax.plot(room_data['date'].iloc[-15:], y_test, label='Actual')
+ax.plot(room_data['date'].iloc[-15:], predictions, label='Forecast', marker='x')
+ax.set_title(f"{selected_room}: Forecasted vs Actual Energy Usage")
 ax.set_ylabel("kWh Used")
 ax.set_xlabel("Date")
 ax.legend()
@@ -93,5 +94,8 @@ ax.grid(True)
 st.pyplot(fig)
 
 st.caption(f"⚠️ Forecast is simulated using room-level features and linear regression. R² = {r2:.2f}, MSE = {mse:.2f}")
+
+# --- Testimonial ---
+st.info("“I didn’t even realise how much extra I was paying until we used FairSplit. Love it!” – Sam, Student in Cork")
 
 
